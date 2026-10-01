@@ -1,0 +1,8 @@
+google-genai
+openai
+anthropic
+python-dotenv
+PyYAML
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib

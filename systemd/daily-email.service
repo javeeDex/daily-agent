@@ -1,0 +1,7 @@
+[Unit]
+Description=Create or update daily email Gmail draft
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/daily-email-agent
+ExecStart=%h/daily-email-agent/.venv/bin/python %h/daily-email-agent/main.py --draft

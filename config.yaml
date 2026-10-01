@@ -1,0 +1,21 @@
+email:
+  to:
+    - "emilio@slashmobility.com"
+  cc: ["jordi.dejuan@slashmobility.com"]
+  bcc: []
+  subject: "Journaling - {date}"
+
+daily:
+  data_directory: "./data"
+  state_directory: "./state"
+
+llm:
+  provider: "gemini" # openai, gemini o claude
+  # model: "gpt-5.6-luna"
+  model: "gemini-3.1-flash-lite"
+  timeout_seconds: 120
+
+asana:
+  enabled: true
+  workspace_gid: "8432464193435"
+  timeout_seconds: 15

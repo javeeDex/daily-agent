@@ -1,0 +1,9 @@
+.env
+.env.*
+!.env.example
+token.json
+credentials/*.json
+state/*.json
+preview.html
+__pycache__/
+.venv/
